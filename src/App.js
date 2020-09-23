@@ -1,26 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import Bar from './Bar'; 
 import './App.css';
+import { getRandomLyrics } from './data/data'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const lyrics = getRandomLyrics();
+  return (<Bar verses={lyrics.verses} author={lyrics.author} title={lyrics.title} year={lyrics.year}></Bar>);
 }
 
 export default App;

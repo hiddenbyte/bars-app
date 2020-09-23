@@ -1,0 +1,15 @@
+.Bar > p > span, .Bar > cite {
+    background-color: #1a1c20;
+    color: #f4f4f4;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.Bar > p {
+    font-size: 3em;
+}
+
+.Bar > cite {
+    background-color: #f0a500;
+    color: #1a1c20;
+    font-size: 2em;
+}
