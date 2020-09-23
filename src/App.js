@@ -5,7 +5,13 @@ import { getRandomLyrics } from './data/data'
 
 function App() {
   const lyrics = getRandomLyrics();
-  return (<Bar verses={lyrics.verses} author={lyrics.author} title={lyrics.title} year={lyrics.year}></Bar>);
+  return (<Bar 
+    verses={lyrics.verses} 
+    author={lyrics.author} 
+    title={lyrics.title} 
+    year={lyrics.year} 
+    media={lyrics.media}>
+    </Bar>);
 }
 
 export default App;

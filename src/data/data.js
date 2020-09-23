@@ -8,7 +8,17 @@ const lyrics = [
         ],
         author: "Profjam",
         title: "Mortalhas",
-        year: 2017
+        year: 2017,
+        media: [
+            {
+                name: "YouTube",
+                link: "https://www.youtube.com/watch?v=ydWxT-lRTa4"
+            },
+            {
+                name: "Spotify",
+                link: "https://open.spotify.com/track/1giQJIkaBcmEG1j4fkebZ2?si=AyWsgPr8T7aqsIxy6yno2w"
+            }
+        ]
     }, 
     {
         verses: [
@@ -19,7 +29,17 @@ const lyrics = [
         ],
         author: "Bob Da Rage Sense",
         title: "Sem escolha possível",
-        year: 2014
+        year: 2014,
+        media: [
+            {
+                name: "YouTube",
+                link: "https://www.youtube.com/watch?v=Tfr9Sg7JSNM"
+            },
+            {
+                name: "Spotify",
+                link: "https://open.spotify.com/track/5bJeUbMTGIo6Bs4vvRl5rC?si=3Z4okUc1SFW4U9tCry-Khg"
+            }
+        ]
     }
 ];
 

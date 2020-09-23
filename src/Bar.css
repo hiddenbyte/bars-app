@@ -13,3 +13,12 @@
     color: #1a1c20;
     font-size: 2em;
 }
+
+.Media > a {
+    background-color: #1a1c20;
+    color: #f4f4f4;
+    display: inline-block;
+    font-size: 0.5em;
+    padding: 2px;
+    margin: 0px 2px 0px 2px;
+}
