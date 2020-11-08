@@ -16,7 +16,28 @@ const lyrics = [
             },
             {
                 name: "Spotify",
-                link: "https://open.spotify.com/track/1giQJIkaBcmEG1j4fkebZ2?si=AyWsgPr8T7aqsIxy6yno2w"
+                link: "https://open.spotify.com/track/1giQJIkaBcmEG1j4fkebZ2"
+            }
+        ]
+    }, 
+    {
+        verses: [
+            "ya tu fica no teu canto Nameless rima abusa", 
+            "Nova Deli sou indiano sou o melhor da dica lusa",
+            "tu já sabes eu sou bruto eu parto a tua fuça",
+            "segura no durum burro mama-me a chamuça",
+        ],
+        author: "Nameless x ZA x Nastyfactor",
+        title: "Tikka Masala",
+        year: 2020,
+        media: [
+            {
+                name: "YouTube",
+                link: "https://www.youtube.com/watch?v=KJn-CY-iHGY"
+            },
+            {
+                name: "Spotify",
+                link: "https://open.spotify.com/track/1ztIGgUg50xt5lcwmrzbnK"
             }
         ]
     }, 
@@ -37,7 +58,7 @@ const lyrics = [
             },
             {
                 name: "Spotify",
-                link: "https://open.spotify.com/track/5bJeUbMTGIo6Bs4vvRl5rC?si=3Z4okUc1SFW4U9tCry-Khg"
+                link: "https://open.spotify.com/track/5bJeUbMTGIo6Bs4vvRl5rC"
             }
         ]
     }
